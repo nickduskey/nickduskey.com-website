@@ -74,6 +74,7 @@ export default {
     },
   },
   mounted() {
+    this.$ga.page('/');
     document.getElementById('terminal-input').focus();
   },
 };
