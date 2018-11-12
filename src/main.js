@@ -3,6 +3,14 @@
 import Vue from 'vue';
 import App from './App.vue';
 import store from './store';
+import VueAnalytics from 'vue-analytics';
+
+Vue.use(VueAnalytics, {
+  id: process.env.GA_TRACKING_ID,
+  autoTracking: {
+    screenView: true,
+  },
+});
 
 Vue.config.productionTip = false;
 
