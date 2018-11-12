@@ -36,7 +36,7 @@ export default {
       this.$ga.event({
         eventCategory: 'command',
         eventAction: 'submit',
-        eventLabel: this.output,
+        eventLabel: this.currentCommand,
       });
       if (commands[this.currentCommand.trim()]) {
         this.output = commands[this.currentCommand.trim()].execute(this.args);
