@@ -6,7 +6,7 @@ import store from './store';
 import VueAnalytics from 'vue-analytics';
 
 Vue.use(VueAnalytics, {
-  id: process.env.GA_TRACKING_ID,
+  id: 'UA-76715549-1',
   autoTracking: {
     screenView: true,
   },
