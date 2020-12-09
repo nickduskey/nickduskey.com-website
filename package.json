@@ -2,6 +2,9 @@
   "name": "nickduskey.com-website",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=12.20.0"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
